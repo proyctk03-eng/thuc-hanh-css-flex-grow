@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.container div {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Áp dụng flex-grow trên div thứ 2 để tăng so với 4 div còn lại */
+.item-grow {
+    flex-grow: 2;
+    background-color: lightgreen !important;
+}
